@@ -1,0 +1,21 @@
+
+.text {
+  max-width: 1200px;
+  border: 2px solid red;
+  padding: 40px;
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.span {
+  line-height: 2px;
+  display: inline-block;
+  margin: 5px;
+}
+.parent {
+  position: relative;
+}
+.shadow {
+  position: absolute;
+  opacity: 0.1;
+  margin: 5px;
+}
