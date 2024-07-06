@@ -1,12 +1,11 @@
 import React, { startTransition, useEffect, useRef } from 'react';
-import { useScroll, motion, useTransform } from 'framer-motion';
+import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 
 const TextAnimations = ({ value }: { value: string }) => {
-
-
-
     // return <ShowScaleAnimation value={value} />
-    return <WordByWordAnimation value={value} />
+    // return <WordByWordAnimation value={value} />
+    return <WordInView value={value} />
+
 }
 
 export default TextAnimations;
@@ -57,5 +56,7 @@ const WordByWordAnimation = ({ value }: { value: string }) => {
         )
     })}</motion.p>
 }
+
+
 
 

@@ -6,9 +6,9 @@ const para = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequu
 
 const App = () => {
   return (
-    <div style={{height:"300vh"}}>
+    <div style={{height:"300vh"}} className='bg-blue-700'>
       <div style={{height:"100vh"}}/>
-      {/* <TextAnimations  value={para} /> */}
+      <TextAnimations  value={para} />
       
     </div>
   )

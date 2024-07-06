@@ -19,3 +19,6 @@
   opacity: 0.1;
   margin: 5px;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
